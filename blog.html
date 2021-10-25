@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/41bf810429.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Wheaton-College-Logo.jpg" ></a>
+            <div class ="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                   <li><a href="contact.html">STUDENTS CORNER</a></li>
+                   <li><a href="contact.html">TEACHERS</a></li>
+                   <li><a href="contact.html">CIRCULAR</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>College Dorm-Life</h1>
+    </section>
+  <!-- blog page content -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images/6ce558891d65349a9c5304fbe4034c65.jpg" >
+                <h2>Wheaton has four campus residence halls available for undergraduate students. Freshman and Sophomore students are required to live in residence halls.</h1>
+                <p>Fischer Hall houses five male floors and seven female floors of freshmen and sophomore students. Most rooms are configured as suites, with double or triple occupancy rooms adjoined by a common bathroom. Floors average around 50 students.</p>
+                <br>
+                <p>Smith-Traber Hall houses six male floors and five female floors of freshmen and sophomore students. Most rooms are configured as doubles and are situated around a floor lounge and a central bathroom.  Floors average around 40 students.</p>
+                <br>
+                <p>McManis-Evans Hall The centrally located McManis-Evans Hall houses 288 sophomore, junior, and senior students in single, double, triple, and quad rooms.</p>
+                <br>
+                <p>Williston Hall is Wheaton's oldest residence hall, housing 61 sophomore students.</p>
+                
+                <div class="comment-box">
+                    <h3>Contact for Campus Housing</h3>
+                    <form  class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                            <textarea  rows="5" placeholder="Your Queries">
+            
+                            </textarea>   
+                            <button type="submit" class="hero-btn red-btn">SEND</button> 
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                <h3>MENU</h3>
+                <div>
+                    <span>Campus Apartments</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Campus Houses</span>
+                    <span>32</span>
+                </div>
+                <div>
+                    <span>Residence Halls</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Undergraduate Off-Campus Housing</span>
+                    <span>23</span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+<!-- footer -->
+<section class="footer">
+    <h4>Visit the Wheaton College Campus Store</h4>
+    <p>Stop by the Campus Store, located in the Student Services Building at the heart of campus, to get all your favorite Wheaton swag, textbooks, gifts, and much more! </p>
+    <div class="icons">
+        <i  class="fa fa-facebook"></i>
+        <i  class="fa fa-twitter"></i>
+        <i  class="fa fa-instagram"></i>
+        <i  class="fa fa-linkedin"></i>
+    </div>
+    <p class ="clr"> Designed by TanbirK </p>
+</section>
+
+
+ <!-- javascript -->
+   <script>
+       var navLinks =document.getElementById("navLinks");
+       function showMenu() {
+           navLinks.style.right="0";
+       }
+       function hiddenMenu() {
+           navLinks.style.right="-200px";
+       }
+   </script> 
+</body>
+</html>  

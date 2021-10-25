@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course-Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/41bf810429.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Wheaton-College-Logo.jpg" ></a>
+            <div class ="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <<li><a href="index.html">HOME</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+                   <li><a href="contact.html">STUDENTS CORNER</a></li>
+                   <li><a href="contact.html">TEACHERS</a></li>
+                   <li><a href="contact.html">CIRCULAR</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Learn with us</h1>
+    </section>
+    <!-- courses -->
+    <section class="course"> 
+        <h1>Wheaton College Stories</h1>
+        <p> On Campus and around the World</p> 
+        <div class="row">
+            <div class="course-col">
+                <h3>Wheaton Seeks New Chief Intercultural Engagement Officer</h3> 
+                <p>Wheaton College seeks an exceptional individual to serve as its next Chief Intercultural Engagement Officer (CIEO). This leader will play a central role in fostering and sustaining a compelling vision for biblical diversity.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Undergraduate Cost & Aid 101</h3> 
+                <p>Wondering about the difference between "sticker price" and "net price"? Or how scholarships and loans fit into your actual college costs? Get answers to all your cost and financial aid questions on this page designed especially for families new to the financial aid process. </p>
+                    
+            </div>
+            <div class="course-col">
+                <h3>Coronavirus Updates and FAQs</h3> 
+                <p>We are excited to welcome students back to campus for the Fall 2021 semester. Check here for regular updates on COVID-19 protocols, including updates to our FAQs page</p>
+                    
+            </div>
+        </div>
+
+    </section>
+    <!-- facilities -->
+    <section class="campus">
+        <h1>Sport & Fitness</h1>
+        <p>Throughout the history of intercollegiate athletics at Wheaton College our mission has remained the same: Wheaton College Athletics exists to foster the development of Christian faith, character, and leadership through competitive sports programs that “run the race to win”.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/photo-1509027572446-af8401acfdc3.jpg" >
+                <div class="layer">
+                    
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/photo-1617085606193-6b17105cff2a.jpg" >
+               
+            </div>
+            <div class="campus-col">
+                <img src="images/izuddin-helmi-adnan-ndxwXAt0jpg-unsplash.jpg" >
+                <div class="layer">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+   
+   
+<!-- footer -->
+<section class="footer">
+    <h4>Visit the Wheaton College Campus Store</h4>
+    <p>Stop by the Campus Store, located in the Student Services Building at the heart of campus, to get all your favorite Wheaton swag, textbooks, gifts, and much more! </p>
+    <div class="icons">
+        <i  class="fa fa-facebook"></i>
+        <i  class="fa fa-twitter"></i>
+        <i  class="fa fa-instagram"></i>
+        <i  class="fa fa-linkedin"></i>
+    </div>
+    <p class ="clr"> Designed by TanbirK </p>
+</section>
+
+ <!-- javascript -->
+   <script>
+       var navLinks =document.getElementById("navLinks");
+       function showMenu() {
+           navLinks.style.right="0";
+       }
+       function hiddenMenu() {
+           navLinks.style.right="-200px";
+       }
+   </script> 
+</body>
+</html>  
